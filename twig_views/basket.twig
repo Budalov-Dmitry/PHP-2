@@ -1,0 +1,10 @@
+
+
+{% for item in catalog %}
+    <div>
+        <img src="img/small/{{ item.image }}" alt="">
+        <h3>{{ item.description }}</h3>
+        <p>price: {{ item.price }}</p>
+        <button>Купить</button>
+    </div>
+{% endfor %}
